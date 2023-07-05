@@ -11,8 +11,6 @@ PySeqX is an open-source code that controls the HiSeq X device and automates add
 PySeq2500 is an open-souce code that already fulfills this purpose for the HiSeq 2500/2000 device, which are predecessors to the HiSeq X device. However, the HiSeq X differs from the HiSeq 2500 in a number of ways, hence the need for updated code.
 The HiSeq X has a different driver for the Y stage, a different fluidics system, and a different driver for the CCD camera. 
 
-**PySeq2500 code:**
-
-[Kunal's code](https://github.com/nygctech/PySeq2500/tree/f9445216be3d521b8bdf643b8dd5a73801bec6f3)
-
+**PySeq2500 code:** 
+[Kunal's code](https://github.com/nygctech/PySeq2500/tree/f9445216be3d521b8bdf643b8dd5a73801bec6f3) 
 [Richard's code](https://github.com/chaichontat/pyseq2501)
