@@ -319,7 +319,7 @@ gains = {1: PG, 2: VG, 3: AF, 4: GM, 5: VF}
 
         return mode_changed
 
-
+#parsing output errors
 def parse_error(text):
         status_num = self.command(text)
         status_num_str = remove_chars(status_num)
@@ -333,34 +333,3 @@ def parse_error(text):
             return dict_error.get(i, value) #return int
             if click.confirm('Do you want corresponding error?', default=True):
                 return dict_error.get(value) #return string
-    # def __init__(self, gains):
-    #     self.gains = gains 
-        
-    # @property
-    # def get_gains(self):
-    #     PG = int(remove_chars(self.command('g r0x30'))) #position loop proportional gain
-    #     VG = int(remove_chars(self.command('g r0x27'))) #velocity loop proportional gain
-    #     AF = int(remove_chars(self.command('g r0x34'))) #acceleration feed-forward
-    #     GM = int(remove_chars(self.command('g r0xe3'))) #gain multiplier
-    #     VF = int(remove_chars(self.command('g r0x33'))) #velocity feed forward
-    #         return self.gains
-        
-    # @gains.setter
-    # def set_gains(self, PG_value, VG_value, AF_value, GM_value, VF_value):
-    #     PG = int(remove_chars(self.command('s r0x30 '+ str(PG_value)) )) #position loop proportional gain
-    #     VG = int(remove_chars(self.command('s r0x27' + str(VG_value) ))) #velocity loop proportional gain
-    #     AF = int(remove_chars(self.command('s r0x34' + str(AF_value) ))) #acceleration feed-forward
-    #     GM = int(remove_chars(self.command('s r0xe3' + str(GM_value) ))) #gain multiplier
-    #     VF = int(remove_chars(self.command('s r0x33' + str(VF_value) ))) #velocity feed forward        
-    #         return gains
-
-
- #    def homing:
-	# @properties
- #    self.is_homed = False
-
- #    #get homing (is it homed?)
-	# #set homing method
-	# #set homing offset
-	# #execute homing command? (y/n)
-
