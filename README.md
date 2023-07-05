@@ -1,7 +1,7 @@
 # PySeqX
 Automating processes on the Illumina HiSeq X, based on code used for the HiSeq 2500.
 
-**Background:**
+**Background:** 
 The HiSeq is an instrument used for DNA sequencing. 
 It was produced by Illumina, who have recently discontinued this device in favor of newer sequencing technology.
 The HiSeq device has a 3-axis motorized stage (x-stage, y-stage, and z-stage), several methods of temperature control including a fluidics system, an integrated fluidics system, and TDI CCD cameras.
