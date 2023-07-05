@@ -3,7 +3,7 @@ Automating processes on the Illumina HiSeq X, based on code used for the HiSeq 2
 
 **Background:**
 The HiSeq is an instrument used for DNA sequencing. 
-It was produced by Illumina, who have recently discontinued this device use in favor of newer sequencing technology.
+It was produced by Illumina, who have recently discontinued this device in favor of newer sequencing technology.
 
 **Project Goal:**
 PySeqX is an open-source code that controls the HiSeq X device and automates additional HiSeq X applications that go beyond initial sequencing applications. 
