@@ -1,5 +1,5 @@
 # PySeqX
-Automating processes on the Illumina HiSeq X, based on code used for the HiSeq 2500.
+Automating processes on the Illumina HiSeq X, based on code used for the HiSeq 2500. 
 
 **Background:** 
 The HiSeq is an instrument used for DNA sequencing. 
