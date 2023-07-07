@@ -300,10 +300,10 @@ gains = {1: PG, 2: VG, 3: AF, 4: GM, 5: VF}
                         all_true = False
                 velocity_ = None
                 while velocity_ != float(velocity):
-                    self.command('V'+str(velocity)) #replace 'V' with 'g r0x18'
+                    self.command('g r0x18'+str(velocity)) #replace 'V' with 'g r0x18'
                     time.sleep(1)
                     try:
-                        velocity_ = float(self.command('V').strip()[1:]) #Velocity command V sets or reports the programmed velocity of the motor.
+                        velocity_ = float(self.command('g r0x18').strip()[1:]) #Velocity command V sets or reports the programmed velocity of the motor.
                     except:
                         velocity_ = False
                 self.mode = mode
